@@ -1,0 +1,32 @@
+.error {
+    text-align: center;
+    padding: 100px;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+
+.error h1 {
+    font-size: 100px;
+    color: #000000;
+}
+
+.error h2 {
+    font-size: 36px;
+    color: #666666;
+}
+
+.error button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.error a {
+    color: white;
+    text-decoration: none;
+}

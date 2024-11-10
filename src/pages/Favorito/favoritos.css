@@ -1,0 +1,44 @@
+.meus-flimes{
+ margin-top: 24px; 
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.meus-flimes h1{
+    margin-bottom: 14px;
+}
+
+.meus-flimes span{
+    font-size:18px;
+}
+.meus-flimes ul{
+    width: 720px;
+}
+.meus-flimes ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.meus-flimes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meus-flimes div a{
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 14px;
+}
+.meus-flimes button{
+    padding: 4px;
+    transition:  0.9s;
+}
+.meus-flimes button:hover{
+    color: #fff;
+    background-color: #116feb ;
+    border: 0;
+    transform: scale(1.2);
+    font-weight: bold;
+}

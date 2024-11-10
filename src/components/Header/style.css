@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #121212;
+    width: 100%;
+    height: 70px;
+}
+header button{
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    transition: all 0.5s;
+}
+header h1{
+    color: #fff;
+}
+header a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000;
+}
+header button:hover{
+    background-color:#e40707 ;
+    color: #000;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.titulo{
+display: flex;
+}
+.titulo a{
+    font-size: 24px;
+    color: #fff;
+}
